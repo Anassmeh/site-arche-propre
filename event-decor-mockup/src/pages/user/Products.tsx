@@ -22,7 +22,7 @@ const Products = () => {
       .then((res) => res.json())
       .then((data) => setCategories(data));
 
-    fetch("https://archedeco.com/api/products")
+    fetch(`${import.meta.env.VITE_API_URL}/api/products`)
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);

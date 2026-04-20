@@ -10,7 +10,7 @@ const PortfolioItem = ({ item }: PortfolioItemProps) => {
     <Card className="group overflow-hidden transition-all duration-300 hover:shadow-soft hover:-translate-y-1">
       <div className="relative aspect-[4/3] overflow-hidden">
         <img
-          src={`${import.meta.env.VITE_API_URL}${item.photo}`}
+          src={`${import.meta.env.VITE_API_URL}/api${item.photo}`}
           alt={item.title}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
