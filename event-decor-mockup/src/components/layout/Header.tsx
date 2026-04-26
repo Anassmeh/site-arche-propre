@@ -59,7 +59,7 @@ const Header = () => {
             ))}
             {!isAdmin && (
               <Button asChild className="bg-gradient-to-r from-primary to-accent hover:opacity-90">
-                <Link to="/quote">Demander un devis</Link>
+                <Link to="/quote">Réserver ma décoration</Link>
               </Button>
             )}
             {/* {!isAdmin && (

@@ -51,9 +51,9 @@ const Products = () => {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="mb-12">
-        <h1 className="text-4xl font-bold mb-4">Nos Produits</h1>
+        <h1 className="text-4xl font-bold mb-4">Location et installation de matériel de décoration événementielle à Paris et en Île-de-France</h1>
         <p className="text-muted-foreground text-lg mb-6">
-          Découvrez tous nos produits disponibles à la location
+          Location et installation de matériel de décoration événementielle pour mariage, anniversaire et baptême à Paris et en Île-de-France. Possibilité de location seule avec retrait et retour du matériel
         </p>
 
         <div className="max-w-xs">

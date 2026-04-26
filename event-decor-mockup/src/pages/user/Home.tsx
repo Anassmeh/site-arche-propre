@@ -32,10 +32,10 @@ const Home = () => {
         <div className="relative z-10 container mx-auto px-4 text-white">
           <div className="max-w-2xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-              Sublimez votre événement avec nos décorations élégantes et personnalisables
+              Décoratrice événementielle pour mariage, anniversaire et baptême à Paris et en Île-de-France
             </h1>
             <p className="text-xl mb-8 text-white/90">
-              Créez des moments inoubliables avec nos prestations haut de gamme
+              Décoratrice événementielle à Paris et en Île-de-France, spécialisée dans la décoration de mariages, anniversaires, baptêmes et événements privés sur mesure
             </p>
             <Button
               asChild
@@ -43,7 +43,7 @@ const Home = () => {
               className="bg-gradient-to-r from-primary to-accent hover:opacity-90 text-white text-lg px-8 py-6"
             >
               <Link to="/quote">
-                Demander un devis
+                Réserver ma décoration
                 <ArrowRight className="ml-2" size={20} />
               </Link>
             </Button>
@@ -54,9 +54,9 @@ const Home = () => {
       {/* Categories Section */}
       <section className="container mx-auto px-4 py-20">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">Nos Catégories de Services</h2>
+          <h2 className="text-4xl font-bold mb-4">Matériel de décoration événementielle</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Découvrez notre sélection de décorations pour tous types d'événements
+            Découvrez notre sélection de matériel de décoration événementielle à louer pour mariages, anniversaires, baptêmes et autres événements privés
           </p>
         </div>
 
@@ -70,16 +70,16 @@ const Home = () => {
       {/* CTA Section */}
       <section className="bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 py-16">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Prêt à créer votre événement de rêve ?</h2>
+          <h2 className="text-3xl font-bold mb-4">Demande de décoration pour votre événement</h2>
           <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
-            Contactez-nous dès maintenant pour discuter de votre projet et obtenir un devis personnalisé
+            Décrivez-nous votre événement, vos envies et vos besoins pour recevoir une proposition personnalisée, adaptée à votre budget et à votre date
           </p>
           <Button
             asChild
             size="lg"
             className="bg-gradient-to-r from-primary to-accent hover:opacity-90"
           >
-            <Link to="/quote">Demander un devis gratuit</Link>
+            <Link to="/quote">Réserver ma décoration</Link>
           </Button>
         </div>
       </section>

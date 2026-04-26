@@ -14,9 +14,9 @@ const Services = () => {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">Nos Prestations</h1>
+        <h1 className="text-4xl font-bold mb-4">Matériel de décoration événementielle</h1>
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-          Explorez notre gamme complète de services de décoration pour tous vos événements spéciaux
+          Découvrez notre sélection de matériel de décoration événementielle à louer pour mariages, anniversaires, baptêmes et autres événements privés
         </p>
       </div>
 

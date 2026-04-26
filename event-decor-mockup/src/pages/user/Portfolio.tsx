@@ -13,9 +13,9 @@ const Portfolio = () => {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">Notre Portfolio</h1>
+        <h1 className="text-4xl font-bold mb-4">Nos réalisations en décoration événementielle à Paris et en Île-de-France</h1>
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-          Découvrez nos plus belles réalisations et laissez-vous inspirer pour votre prochain événement
+          Découvrez nos décorations de mariage, anniversaire, baptême et baby shower réalisées à Paris et en Île-de-France. Chaque projet est conçu sur mesure selon les envies de nos clients
         </p>
       </div>
 
